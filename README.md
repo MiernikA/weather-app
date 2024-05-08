@@ -25,7 +25,7 @@ Install the necessary dependencies:
 
     npm install
 
-### Running the server
+### Running the app
 Start the app with:
 
     npm start
