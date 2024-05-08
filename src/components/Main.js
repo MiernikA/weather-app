@@ -69,7 +69,7 @@ function Main() {
                 {renderWeatherData()}
             </Box>
             <Map lat={coords.latitude} lng={coords.longitude} changeCoords={changeCoords} />
-            <span style={{marginRight:'0.5vw'}}> Dark mode: <Switch onClick={changeMode} /><span/>
+            <span style={{ margin: '0.5vw' }}> Dark mode: <Switch onClick={changeMode} /></span>
         </div>
     );
 }
